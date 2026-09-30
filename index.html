@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="NovaCart - Modern E-Commerce Product Catalog">
+
+    <title>NovaCart | Shop Smarter</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+
+    <header class="navbar">
+
+        <div class="nav-container">
+
+            <a href="#/" class="brand">
+                Nova<span>Cart</span>
+            </a>
+
+            <nav id="navLinks">
+
+                <a href="#/">Home</a>
+                <a href="#/products">Shop</a>
+                <a href="#/about">About</a>
+                <a href="#/contact">Contact</a>
+
+            </nav>
+
+            <div class="nav-actions">
+
+                <button
+                    class="icon-btn"
+                    onclick="toggleTheme()"
+                    title="Toggle theme">
+
+                    ◐
+
+                </button>
+
+                <button
+                    class="cart-icon"
+                    onclick="goToCart()">
+
+                    🛒
+
+                    <span id="cartCount">
+                        0
+                    </span>
+
+                </button>
+
+                <button
+                    class="menu-btn"
+                    onclick="toggleMenu()">
+
+                    ☰
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- APP -->
+
+    <main id="app"></main>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <div class="footer-container">
+
+            <div>
+
+                <h2 class="footer-logo">
+                    NovaCart
+                </h2>
+
+                <p>
+                    Modern shopping made simple,
+                    fast and beautiful.
+                </p>
+
+            </div>
+
+            <div>
+
+                <h3>Explore</h3>
+
+                <a href="#/">Home</a>
+                <a href="#/products">Products</a>
+                <a href="#/about">About</a>
+                <a href="#/contact">Contact</a>
+
+            </div>
+
+            <div>
+
+                <h3>Categories</h3>
+
+                <p>Electronics</p>
+                <p>Fashion</p>
+                <p>Home</p>
+
+            </div>
+
+            <div>
+
+                <h3>Contact</h3>
+
+                <p>📧 hello@novacart.com</p>
+                <p>📍 India</p>
+
+            </div>
+
+        </div>
+
+        <div class="copyright">
+
+            © 2026 NovaCart. 
+
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
